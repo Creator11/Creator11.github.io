@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body{
+            margin: 0; 
+            overflow: hidden;
+        }
+
+        .about-section {
+            width: 1200px;
+            height: 200px;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            bottom: 0;
+            color: white;
+            font-size: 20px;
+            left: 105px;
+            font-weight: 700;
+        }
+        .about-text__name{
+            font-size: 40px;
+            font-weight: 200;
+        }
+
+        a.social-icon {
+            text-decoration: none;
+            color: white;
+            margin-bottom: 15px;
+        }
+        a:hover{
+            color: gray;
+            transition: .3s;
+        }
+        .about-icons {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    <title>3d portfolio</title>
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div class="about-section">
+
+    <div class="about-text">
+        3D/2D Illustrator
+        <br> 
+        <span class="about-text__name">Daniel <br>Lighthouse</span>
+    </div>
+    <div class="about-icons">
+        <a href="#" class="social-icon"><i class='bx bxl-behance'></i></a>
+        <a href="https://www.instagram.com/daniel_lighthouse/" class="social-icon"><i class='bx bxl-instagram' ></i></a>
+    </div>
+    </div>
+
+
+
+<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.js" integrity="sha512-NLtnLBS9Q2w7GKK9rKxdtgL7rA7CAS85uC/0xd9im4J/yOL4F9ZVlv634NAM7run8hz3wI2GabaA6vv8vJtHiQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r92/examples/js/loaders/GLTFLoader.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
