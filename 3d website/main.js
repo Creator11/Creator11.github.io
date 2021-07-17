@@ -1,3 +1,8 @@
+window.onload = function () {
+    let preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+
+
 let scene, camera, render
 
 var mouseX = 0, mouseY = 0;
@@ -161,3 +166,6 @@ requestAnimationFrame(animate);
 }
 
 init()
+
+
+};
